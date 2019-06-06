@@ -1,0 +1,7 @@
+lane :test do
+  cocoapods
+  scan(
+    scheme: "ApplauseTask",
+    devices: ["iPhone 8"]
+  )
+end
